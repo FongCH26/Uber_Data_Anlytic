@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "uberdaproject",
+  "private_key_id": "b800b72687c751f89575169ef7c1e11755882674",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVAvCcJEg2xvPv\n7VKA3eE6cYQPw3VQRoPpvSSymla9WptoyWn00Wyh6EMe8drkurUlXzUBgxcM/ZMO\n3S2C7eYUmp1+YdZG9F0A0s+CKUtqejL4fNzXWSj5FRpZqi8soxu7FaH+h1JnhGz7\nfUCvm6AILCsK2r1npgIjJSYWwJbkvOEzYx1AJcY+jM8Eb/+euInErnZrEL2jhvgC\nsVGfcW22CZAlFlTlNGrwgmwe51YMqjMYQHxI6IaJdok/XvhhCzMnpZUYxw8PAVrF\n3mY7hUbj+x+O18oGsNZQEp9oX+Xro3Ht8vkGkO43PzPRN6tbmclnXxtc2Rsq5b+H\nK0eqGXjlAgMBAAECggEAD0K+6LzbtJrz2o5a4RMkYfrEfpmfA8GNjVco9CfFC5tc\nc3ksn2bKnN3mQycKKuVqeXM0+bcB1YMsQD4d1tnC6Fp8apPJVXuH1zmDNtzNA6Oe\nF7ngW4hOfGvj36Um7JCB+dkOqkzZHUP6R9k9I2enozZA3i32MGEPGaP9ctdY6Cmz\nkSF+MPEBpaifBTDW1cEHYuL6RjSrRFRtJ67WoSE154IFc4/HmpHSEU9ycZZSswRU\njbwWII1pbm4+NBRwodjT5fmugBmdEoQsUrm1On18qM+deLKW6B+QCN8xbrDVcMXz\n+xmcE5PtvwQI1DSyq9czkQBJE9NAIpgUhuHS09UpmQKBgQDxX55zUr13gfAhl4Oo\nUe3XMWbiC+elJlgbvnv1kI6tOOZBZLMwjGi3mlhubyi2TeQhhrXdwjR6VTs12Gnz\n/vrWBpIe34usCroats+9snBrKQy+O7qjZe50sAU/eWqRfvA4+HwsikKNbNcvb/6e\nmgphrlHHRiXuZMvkpSj2AugaiQKBgQDh61iiwtrenU0T1I1cNzHEGHI/s2pjf9Sc\nmsqngZ/5B/VAWlWjctkpCAgQTebfrrAQjmmSdJJ9UitJ5cUs0tjp+SygJnFJhSFo\nAKlUWsCVptMMdLXg1x7fDzLwMcoLevoypReJgdqGof1E6JNAYy/+ocrYx0haPbMS\nfCQAu29kfQKBgA5ixozVB5nR0sANybkEeQp0VU9vqjS7nlC4/6ZZIUfNtlt7Zvqj\nw7H9rvuWAHUtG0WsQ7ad1obcAZVp+paiQczzw023wRlV4lWpQ6RouC6K2cmUwcDv\nWFD4FLf9wo49ZI/gr3XwH5tSO1kGccR+JdRAkXsxAR2+QDC2b0SKU88RAoGBAMEE\n64i8BHW4XZc4vcHw4lMRM+Oa7aWvHL7kPYrZ5AzHsNFXnN12DXXSB9muRTgNLx4m\nHqrjcBkkcBnF9y2xw2Q74NW/ooDW/tC15/ZLR0lU6/IzcQV1pkmb2cCAOYiPfF5y\n0OZKDKOEmTgboVucou/h2cZWlUmMd4euirAZdDWdAoGBAJ7iD2MNBaHnml4HC8//\nz0BsQHbamxjUkLyr1OhgYov+VF72AOOJOCrTaWdo4cwny+BbJY3f4jhgZJPWm7Qv\nBHb3mA7WSK5Gf0yAAujJaJMYokvzSWNXISsaoSokhvXuFUV2ugPzUcwnVDpNA+WO\ncsnXJbJMtXAZuzGk62r/p+l0\n-----END PRIVATE KEY-----\n",
+  "client_email": "uber-de-project@uberdaproject.iam.gserviceaccount.com",
+  "client_id": "116093752296816642438",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/uber-de-project%40uberdaproject.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
