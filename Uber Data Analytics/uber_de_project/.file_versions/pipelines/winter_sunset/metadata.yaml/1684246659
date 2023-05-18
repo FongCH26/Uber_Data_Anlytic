@@ -1,0 +1,56 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - uber_transformation
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: long_uber_data
+  status: executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: long_uber_data
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - uber_de_export
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: uber_transformation
+  status: executed
+  type: transformer
+  upstream_blocks:
+  - long_uber_data
+  uuid: uber_transformation
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: uber_de_export
+  status: failed
+  type: data_exporter
+  upstream_blocks:
+  - uber_transformation
+  uuid: uber_de_export
+callbacks: []
+data_integration: null
+description: null
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: winter sunset
+type: python
+updated_at: '2023-05-16 14:17:20'
+uuid: winter_sunset
+widgets: []

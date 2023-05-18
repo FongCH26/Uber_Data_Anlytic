@@ -1,0 +1,95 @@
+version: 0.1.1
+default:
+  # Default profile created for data IO access.
+  # Add your credentials for the source you use, and delete the rest.
+  AWS_ACCESS_KEY_ID: "{{ env_var('AWS_ACCESS_KEY_ID') }}"
+  AWS_SECRET_ACCESS_KEY: "{{ env_var('AWS_SECRET_ACCESS_KEY') }}"
+  AWS_SESSION_TOKEN: session_token (Used to generate Redshift credentials)
+  AWS_REGION: region
+  AZURE_CLIENT_ID: "{{ env_var('AZURE_CLIENT_ID') }}"
+  AZURE_CLIENT_SECRET: "{{ env_var('AZURE_CLIENT_SECRET') }}"
+  AZURE_STORAGE_ACCOUNT_NAME: "{{ env_var('AZURE_STORAGE_ACCOUNT_NAME') }}"
+  AZURE_TENANT_ID: "{{ env_var('AZURE_TENANT_ID') }}"
+  CLICKHOUSE_DATABASE: default
+  CLICKHOUSE_HOST: host.docker.internal
+  CLICKHOUSE_INTERFACE: http
+  CLICKHOUSE_PASSWORD: null
+  CLICKHOUSE_PORT: 8123
+  CLICKHOUSE_USERNAME: null
+  DRUID_HOST: hostname
+  DRUID_PASSWORD: password
+  DRUID_PATH: /druid/v2/sql/
+  DRUID_PORT: 8082
+  DRUID_SCHEME: http
+  DRUID_USER: user
+  GOOGLE_SERVICE_ACC_KEY:
+    type: "service_account",
+    project_id: "uberdaproject",
+    private_key_id: "b800b72687c751f89575169ef7c1e11755882674",
+    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVAvCcJEg2xvPv\n7VKA3eE6cYQPw3VQRoPpvSSymla9WptoyWn00Wyh6EMe8drkurUlXzUBgxcM/ZMO\n3S2C7eYUmp1+YdZG9F0A0s+CKUtqejL4fNzXWSj5FRpZqi8soxu7FaH+h1JnhGz7\nfUCvm6AILCsK2r1npgIjJSYWwJbkvOEzYx1AJcY+jM8Eb/+euInErnZrEL2jhvgC\nsVGfcW22CZAlFlTlNGrwgmwe51YMqjMYQHxI6IaJdok/XvhhCzMnpZUYxw8PAVrF\n3mY7hUbj+x+O18oGsNZQEp9oX+Xro3Ht8vkGkO43PzPRN6tbmclnXxtc2Rsq5b+H\nK0eqGXjlAgMBAAECggEAD0K+6LzbtJrz2o5a4RMkYfrEfpmfA8GNjVco9CfFC5tc\nc3ksn2bKnN3mQycKKuVqeXM0+bcB1YMsQD4d1tnC6Fp8apPJVXuH1zmDNtzNA6Oe\nF7ngW4hOfGvj36Um7JCB+dkOqkzZHUP6R9k9I2enozZA3i32MGEPGaP9ctdY6Cmz\nkSF+MPEBpaifBTDW1cEHYuL6RjSrRFRtJ67WoSE154IFc4/HmpHSEU9ycZZSswRU\njbwWII1pbm4+NBRwodjT5fmugBmdEoQsUrm1On18qM+deLKW6B+QCN8xbrDVcMXz\n+xmcE5PtvwQI1DSyq9czkQBJE9NAIpgUhuHS09UpmQKBgQDxX55zUr13gfAhl4Oo\nUe3XMWbiC+elJlgbvnv1kI6tOOZBZLMwjGi3mlhubyi2TeQhhrXdwjR6VTs12Gnz\n/vrWBpIe34usCroats+9snBrKQy+O7qjZe50sAU/eWqRfvA4+HwsikKNbNcvb/6e\nmgphrlHHRiXuZMvkpSj2AugaiQKBgQDh61iiwtrenU0T1I1cNzHEGHI/s2pjf9Sc\nmsqngZ/5B/VAWlWjctkpCAgQTebfrrAQjmmSdJJ9UitJ5cUs0tjp+SygJnFJhSFo\nAKlUWsCVptMMdLXg1x7fDzLwMcoLevoypReJgdqGof1E6JNAYy/+ocrYx0haPbMS\nfCQAu29kfQKBgA5ixozVB5nR0sANybkEeQp0VU9vqjS7nlC4/6ZZIUfNtlt7Zvqj\nw7H9rvuWAHUtG0WsQ7ad1obcAZVp+paiQczzw023wRlV4lWpQ6RouC6K2cmUwcDv\nWFD4FLf9wo49ZI/gr3XwH5tSO1kGccR+JdRAkXsxAR2+QDC2b0SKU88RAoGBAMEE\n64i8BHW4XZc4vcHw4lMRM+Oa7aWvHL7kPYrZ5AzHsNFXnN12DXXSB9muRTgNLx4m\nHqrjcBkkcBnF9y2xw2Q74NW/ooDW/tC15/ZLR0lU6/IzcQV1pkmb2cCAOYiPfF5y\n0OZKDKOEmTgboVucou/h2cZWlUmMd4euirAZdDWdAoGBAJ7iD2MNBaHnml4HC8//\nz0BsQHbamxjUkLyr1OhgYov+VF72AOOJOCrTaWdo4cwny+BbJY3f4jhgZJPWm7Qv\nBHb3mA7WSK5Gf0yAAujJaJMYokvzSWNXISsaoSokhvXuFUV2ugPzUcwnVDpNA+WO\ncsnXJbJMtXAZuzGk62r/p+l0\n-----END PRIVATE KEY-----\n",
+    client_email: "uber-de-project@uberdaproject.iam.gserviceaccount.com",
+    client_id: "116093752296816642438",
+    auth_uri: "https://accounts.google.com/o/oauth2/auth",
+    token_uri: "https://oauth2.googleapis.com/token",
+    auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
+    client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/uber-de-project%40uberdaproject.iam.gserviceaccount.com",
+    universe_domain: "googleapis.com"
+  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/path/to/your/service/account/key.json"
+  GOOGLE_LOCATION: asia-southeast1 # Optional
+  MONGODB_DATABASE: database
+  MONGODB_HOST: host
+  MONGODB_PASSWORD: password
+  MONGODB_PORT: 27017
+  MONGODB_COLLECTION: collection
+  MONGODB_USER: user
+  MSSQL_DATABASE: database
+  MSSQL_SCHEMA: schema
+  MSSQL_DRIVER: "ODBC Driver 18 for SQL Server"
+  MSSQL_HOST: host
+  MSSQL_PASSWORD: password
+  MSSQL_PORT: 1433
+  MSSQL_USER: SA
+  MYSQL_DATABASE: database
+  MYSQL_HOST: host
+  MYSQL_PASSWORD: password
+  MYSQL_PORT: 3306
+  MYSQL_USER: root
+  POSTGRES_CONNECT_TIMEOUT: 10
+  POSTGRES_DBNAME: postgres
+  POSTGRES_SCHEMA: public # Optional
+  POSTGRES_USER: username
+  POSTGRES_PASSWORD: password
+  POSTGRES_HOST: hostname
+  REDSHIFT_SCHEMA: public # Optional
+  POSTGRES_PORT: 5432
+  REDSHIFT_DBNAME: redshift_db_name
+  REDSHIFT_HOST: redshift_cluster_id.identifier.region.redshift.amazonaws.com
+  REDSHIFT_PORT: 5439
+  REDSHIFT_TEMP_CRED_USER: temp_username
+  REDSHIFT_TEMP_CRED_PASSWORD: temp_password
+  REDSHIFT_DBUSER: redshift_db_user
+  REDSHIFT_CLUSTER_ID: redshift_cluster_id
+  REDSHIFT_IAM_PROFILE: default
+  SNOWFLAKE_USER: username
+  SNOWFLAKE_PASSWORD: password
+  SNOWFLAKE_ACCOUNT: account_id.region
+  SNOWFLAKE_DEFAULT_WH: default_warehouse
+  SNOWFLAKE_DEFAULT_DB: optional_default_database
+  SNOWFLAKE_DEFAULT_SCHEMA: optional_default_schema
+  SNOWFLAKE_ROLE: role
+  SNOWFLAKE_TIMEOUT: null                     # Optional timeout in seconds
+  trino:
+    catalog: postgresql                       # Change this to the catalog of your choice
+    host: 127.0.0.1
+    http_headers:
+      X-Something: 'mage=power'
+    http_scheme: http
+    password: mage1337                        # Optional
+    port: 8080
+    schema: core_data
+    session_properties:                       # Optional
+      acc01.optimize_locality_enabled: false
+      optimize_hash_generation: true
+    source: trino-cli                         # Optional
+    user: admin
+    verify: /path/to/your/ca.crt              # Optional
